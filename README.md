@@ -8,6 +8,7 @@ chronological list with a live "now" marker.
 It answers two questions at a glance, without interaction: *what is left of
 today?* and *what will the house do without me?*
 
+Disclaimer: Yep, this is all Claude, you've been appropriately informed.
 ## Two repositories, on purpose
 
 Home Assistant and HACS treat a backend integration and a frontend card as
