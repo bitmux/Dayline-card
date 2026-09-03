@@ -1,0 +1,6 @@
+{
+  "name": "Dayline Card",
+  "homeassistant": "2024.11.0",
+  "render_readme": true,
+  "filename": "day-spine-card.js"
+}
