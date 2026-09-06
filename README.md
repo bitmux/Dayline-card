@@ -8,6 +8,19 @@ chronological list with a live "now" marker.
 It answers two questions at a glance, without interaction: *what is left of
 today?* and *what will the house do without me?*
 
+## Two cards in one bundle
+
+**Dayline** is the spine — the full day, for a dashboard read at arm's length.
+
+**Dayline Glance** is the same feed reduced to what survives being read from
+across a room: the time in large type, the one event that is running or next,
+and up to two live alerts with their buttons. It is meant for a wall tablet, and
+because a panel cannot scroll it gives content up in a deliberate order rather
+than letting the bottom of itself be cut off.
+
+Both are in this one file. Installing the repository gives you both, and both
+appear in the card picker.
+
 Disclaimer: Yep, this is all Claude, you've been appropriately informed.
 ## Two repositories, on purpose
 
@@ -40,6 +53,13 @@ Lovelace's storage from outside, with no public API and no contract.
 
 ```yaml
 type: custom:day-spine-card
+entity: sensor.dayline
+```
+
+or, for a panel:
+
+```yaml
+type: custom:dayline-glance-card
 entity: sensor.dayline
 ```
 
