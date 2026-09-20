@@ -52,7 +52,7 @@ Lovelace's storage from outside, with no public API and no contract.
    "Dayline"**.
 
 ```yaml
-type: custom:day-spine-card
+type: custom:dayline-card
 entity: sensor.dayline
 ```
 
@@ -65,7 +65,7 @@ entity: sensor.dayline
 
 > **Check that entity id.** The sensor is named after the config entry's title,
 > so an integration you named "Dayline" gives you `sensor.dayline`, not
-> `sensor.day_spine`. Whatever appears under **Settings → Devices & services →
+> `sensor.dayline`. Whatever appears under **Settings → Devices & services →
 > Dayline → 1 entity** is the right answer. The card picker fills this in for
 > you by looking for a sensor carrying an `entries` list.
 
